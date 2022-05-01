@@ -1,0 +1,12 @@
+ExampleCommand:
+  function:
+    Key1:
+      Condition:
+        - "@player||1 < 999"
+      Function:
+        - "@player||message:<Hover:Show_text:&cDon't Click Me##Click:Run_Command:Oh I click it!>Thanks for using OriginXLvlReward"
+        - "@player||delay:100"
+        - "@op||title:感谢使用:OriginXCustomCommand:100:10:100"
+    Key2:
+      Function:
+        - "@op||command:tell %player_name% I Love you"
